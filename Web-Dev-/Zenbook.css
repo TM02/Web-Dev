@@ -238,6 +238,7 @@ body {
     border-right: 1px solid grey;
     vertical-align: top;
     padding: 30px;
+    padding-left: 8%;
     font-size: 25px;
     width: 400px;
     height: 40px;
@@ -309,6 +310,7 @@ body {
         border: none;
         text-align: center;
         padding: 30px;
+        padding-left: 25px;
         font-size: 25px;
         width: 400px;
         height: 40px;
