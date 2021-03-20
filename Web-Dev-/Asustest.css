@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    background-color: whitesmoke;
+    text-align: left;
+    align-items: center;
+}
+
+.logo img {
+    margin: 8px 10px 0px 20px;
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+nav ul li a:visited {
+    color: rgb(177, 114, 95);
+}
+
+
+/* video css start */
+
+.zenbook_title {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(74, 74, 74);
+    padding-top: 90px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(74, 74, 74);
+}
+
+.video_content {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    margin: auto;
+    min-height: 45vh;
+}
+
+.video {
+    flex: 1;
+    padding: 7px 20px 0px 150px;
+}
+
+.video_desc {
+    flex: 1;
+    padding: 0px 150px 10px 10px;
+}
+
+iframe {
+    border: 1px solid whitesmoke;
+}
+
+.video_desc h2 {
+    display: flex;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: Myriad W08 Regular, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
+    font-weight: 100;
+}
+
+.video_desc p {
+    display: flex;
+    text-align: left;
+    padding: 20px 10px 5px;
+    font-size: 17px;
+    font-family: Myriad W08 Regular, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1200px) {
+    .video {
+        padding: 17px 20px 0px 100px;
+    }
+    .video_desc {
+        padding: 0px 90px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .video_content {
+        flex-direction: column;
+    }
+    .video {
+        padding: 17px 20px 0px 0px;
+    }
+    .video_desc {
+        width: 70%;
+        text-align: center;
+        padding: 7px 0px 20px 0px;
+    }
+    .video_desc p {
+        display: block;
+        text-align: center;
+    }
+    .video_desc h2 {
+        display: block;
+        text-align: center;
+    }
+}

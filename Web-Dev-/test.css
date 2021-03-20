@@ -1,0 +1,17 @@
+.a {
+    text-align: center;
+}
+
+.a p {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.bckg {
+    background-image: url("img/bckg2.jfif");
+    background-repeat: repeat;
+}
