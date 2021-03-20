@@ -93,12 +93,6 @@ nav ul li a:visited {
 /* video css start */
 
 .zenbook_title {
-    padding-top: 110px;
-    padding-bottom: 60px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(74, 74, 74);
     padding-top: 90px;
     padding-bottom: 60px;
     text-align: center;
@@ -107,14 +101,37 @@ nav ul li a:visited {
     color: rgb(74, 74, 74);
 }
 
-.video_content {
+.video_content1 {
     height: auto;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: pink;
+    background-color: rgb(52, 125, 99);
     margin: auto;
     min-height: 45vh;
+    color: whitesmoke;
+}
+
+.video_content2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(202, 129, 60);
+    margin: auto;
+    min-height: 45vh;
+    color: whitesmoke;
+}
+
+.video_content3 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(174, 57, 135);
+    margin: auto;
+    min-height: 45vh;
+    color: whitesmoke;
 }
 
 .video {
@@ -135,17 +152,17 @@ iframe {
     display: flex;
     text-align: left;
     padding: 5px 10px;
-    font-size: 25px;
-    font-family: Myriad W08 Regular, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
-    font-weight: 100;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .video_desc p {
     display: flex;
     text-align: left;
     padding: 20px 10px 5px;
-    font-size: 17px;
-    font-family: Myriad W08 Regular, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
 

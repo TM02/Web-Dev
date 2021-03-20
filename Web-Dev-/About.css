@@ -394,6 +394,22 @@ body {
 }
 
 /*About us css start */
+.about_bckg{
+    position: relative;
+    z-index: 1;
+}
+
+.about_bckg::before{/*for opacity of background*/
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(img/aboutbckg.jpg) center center;
+    opacity: 0.1;
+}
 
 #about{
     position: relative;
@@ -419,7 +435,7 @@ iframe{
 #about_asus1{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 80%;  
 }
 
 #about_asus1 .about_title1{
