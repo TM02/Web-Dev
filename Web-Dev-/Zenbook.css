@@ -43,6 +43,7 @@ body {
     padding: 10px 20px;
 }
 
+
 /* footer of each page */
 
 .foot1 {
@@ -217,7 +218,7 @@ body {
     padding-top: 63px;
     padding-bottom: 63px;
     background-color: pink;
-    width: 94%;
+    width: 100%;
     margin: auto;
     min-height: 60vh;
     align-items: center;
