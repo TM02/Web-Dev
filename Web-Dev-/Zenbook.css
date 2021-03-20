@@ -231,7 +231,7 @@ body {
 }
 
 .specs {
-    width: 60%;
+    width: 100%;
 }
 
 .col1 {
@@ -287,10 +287,10 @@ body {
         height: 40vh;
     }
     .third {
-        padding-left: auto;
+        padding-left: 0%;
         padding-top: 63px;
         background-color: pink;
-        width: 94%;
+        width: 100%;
         margin: auto;
         min-height: 60vh;
         align-items: center;
