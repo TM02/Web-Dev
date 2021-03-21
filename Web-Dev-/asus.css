@@ -126,22 +126,21 @@ nav ul li a:active {
     text-decoration: none;
 }
 
-.des-text a:link{
+.des-text a:link {
     color: rgba(47, 121, 174, 0.864);
 }
 
-.des-text a:visited{
+.des-text a:visited {
     color: rgba(47, 121, 174, 0.864);
 }
 
-.des-text a:hover{
+.des-text a:hover {
     color: rgba(73, 179, 160, 0.864);
 }
 
-.des-text a:active{
+.des-text a:active {
     color: rgb(224, 144, 91);
 }
-
 
 
 /* Zenbook 13 Flip */
@@ -382,13 +381,13 @@ nav ul li a:active {
     padding-top: 6%;
 }
 
-.column figcaption p{
+.column figcaption p {
     font-size: 1.2em;
     padding: 1% 3% 6% 3%;
     font-family: sans-serif;
 }
 
-.list li{
+.list li {
     text-align: left;
     padding: 0.5% 12%;
     list-style-position: inside;
@@ -410,24 +409,24 @@ nav ul li a:active {
     padding: 13% 5% 10% 5%;
 }
 
-.list p a:link{
+.list p a:link {
     color: rgb(174, 57, 135);
 }
 
-.list p a:visited{
+.list p a:visited {
     color: rgb(174, 57, 135);
 }
 
-.list p a:hover{
+.list p a:hover {
     color: rgb(112, 146, 247);
 }
 
-.list p a:active{
+.list p a:active {
     color: rgb(202, 129, 60);
 }
 
 @media screen and (max-width: 1024px) {
-    .list1 li{
+    .list1 li {
         font-size: 0.8em;
     }
 }
@@ -667,7 +666,6 @@ nav ul li a:active {
     background-position: center;
     width: 100%;
     min-height: 100vh;
-    
 }
 
 #contact {
@@ -687,8 +685,8 @@ nav ul li a:active {
 .contact_content {
     display: flex;
     padding: 20px 0px;
-    
 }
+
 .contact_left {
     flex: 1;
     font-size: 27px;
@@ -774,8 +772,10 @@ nav ul li a:active {
 
 .first-layer {
     background-image: url(img/zenbook13bckg.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
     display: flex;
     width: 100%;
     margin: auto;
@@ -832,7 +832,7 @@ nav ul li a:active {
 }
 
 .samples img {
-    border: 2px solid rgba(242,224,222,255);
+    border: 2px solid rgba(242, 224, 222, 255);
     vertical-align: bottom;
     height: 32vh;
 }
@@ -844,7 +844,7 @@ nav ul li a:active {
     padding-left: auto;
     padding-top: 63px;
     padding-bottom: 63px;
-    background-color: rgba(242,224,222,255);
+    background-color: rgba(242, 224, 222, 255);
     width: 100%;
     margin: auto;
     min-height: 60vh;
@@ -883,6 +883,7 @@ nav ul li a:active {
     }
     .cover13-layer img,
     .cover14-layer img {
+        margin-top: 50px;
         margin-left: 5%;
         height: 60vh;
     }
@@ -890,7 +891,7 @@ nav ul li a:active {
         text-align: center;
         font-size: 35px;
         font-weight: 500;
-        margin-bottom: 8%;
+        margin-bottom: 4%;
     }
     .description {
         margin-top: 0px;
@@ -898,10 +899,10 @@ nav ul li a:active {
     }
     .des-text-layer p {
         text-align: center;
-        margin-top: 5px;
         line-height: 1.5;
         font-size: 15px;
         font-weight: 100;
+        margin-bottom: 50px;
     }
     .specs {
         width: 80%;
@@ -917,7 +918,7 @@ nav ul li a:active {
     .third-layer {
         padding-left: 0%;
         padding-top: 63px;
-        background-color: rgba(242,224,222,255);
+        background-color: rgba(242, 224, 222, 255);
         width: 100%;
         margin: auto;
         min-height: 60vh;
