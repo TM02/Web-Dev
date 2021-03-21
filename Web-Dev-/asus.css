@@ -9,14 +9,17 @@ body {
 }
 
 
-/* Nav */
+/* Navigation bar */
 
 nav {
     height: 70px;
     display: flex;
+    /* makes flexible items */
     background-color: whitesmoke;
     text-align: left;
+    /* align text to left side */
     align-items: center;
+    /* align items center vertically */
 }
 
 .logo img {
@@ -27,26 +30,31 @@ nav {
 .navbar {
     display: flex;
     justify-content: space-around;
+    /* space between items are same */
     width: 500px;
 }
 
 nav ul li {
     list-style: none;
+    /* removes dot */
 }
 
 nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    /* remove line */
     font-size: 17px;
     color: black;
     text-align: center;
 }
 
 nav ul li a:visited {
+    /* visited site */
     color: rgb(177, 114, 95);
 }
 
 nav ul li a:hover {
+    /* cursor hovering */
     color: rgb(52, 52, 45);
 }
 
@@ -92,6 +100,7 @@ nav ul li a:active {
     align-items: center;
     color: rgb(71, 63, 63);
     text-decoration: underline;
+    /* underline */
 }
 
 
@@ -892,22 +901,22 @@ nav ul li a:active {
 }
 
 .next-product a:link,
-.previous-product a:link{
-    color:rgb(112, 159, 148);
+.previous-product a:link {
+    color: rgb(112, 159, 148);
 }
 
 .next-product a:visited,
-.previous-product a:visited{
+.previous-product a:visited {
     color: rgb(112, 159, 148);
 }
 
 .next-product a:hover,
-.previous-product a:hover{
+.previous-product a:hover {
     color: burlywood;
 }
 
 .next-product a:active,
-.previous-product a:active{
+.previous-product a:active {
     color: rgb(178, 137, 238);
 }
 
@@ -941,11 +950,9 @@ nav ul li a:active {
     .specs {
         width: 80%;
     }
-
     .next-product,
     .previous-product {
         font-size: 10px;
-        
     }
 }
 
