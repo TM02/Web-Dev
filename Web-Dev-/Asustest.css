@@ -47,6 +47,7 @@ nav ul li a:visited {
     color: rgb(177, 114, 95);
 }
 
+
 /* footer of each page */
 
 .foot1 {
@@ -90,6 +91,7 @@ nav ul li a:visited {
     padding-left: 10%;
 }
 
+
 /* video css start */
 
 .zenbook_title {
@@ -101,37 +103,28 @@ nav ul li a:visited {
     color: rgb(74, 74, 74);
 }
 
-.video_content1 {
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: rgb(52, 125, 99);
-    margin: auto;
-    min-height: 45vh;
-    color: whitesmoke;
-}
-
-.video_content2 {
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: rgb(202, 129, 60);
-    margin: auto;
-    min-height: 45vh;
-    color: whitesmoke;
-}
-
+.video_content1,
+.video_content2,
 .video_content3 {
     height: auto;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgb(174, 57, 135);
     margin: auto;
     min-height: 45vh;
     color: whitesmoke;
+}
+
+.video_content1 {
+    background-color: rgb(52, 125, 99);
+}
+
+.video_content2 {
+    background-color: rgb(202, 129, 60);
+}
+
+.video_content3 {
+    background-color: rgb(174, 57, 135);
 }
 
 .video {
@@ -144,7 +137,7 @@ nav ul li a:visited {
     padding: 0px 150px 10px 10px;
 }
 
-iframe {
+.video iframe {
     border: 1px solid whitesmoke;
 }
 
@@ -176,7 +169,9 @@ iframe {
 }
 
 @media screen and (max-width: 1000px) {
-    .video_content {
+    .video_content1,
+    .video_content2,
+    .video_content3 {
         flex-direction: column;
     }
     .video {
