@@ -145,9 +145,9 @@ body {
 }
 
 
-/* Zenbook 13 */
+/* Zenbook */
 
-.first {
+.first-layer {
     background-color: pink;
     display: flex;
     width: 100%;
@@ -162,12 +162,12 @@ body {
     flex: 1.5;
 }
 
-.cover13 img {
+.cover13-layer img {
     margin-left: 15%;
     height: 60vh;
 }
 
-.cover14 img {
+.cover14-layer img {
     margin-left: 15%;
     height: 70vh;
 }
@@ -190,7 +190,7 @@ body {
 
 /* Samples */
 
-.second {
+.second-layer {
     background-color: white;
     width: 100%;
     margin: auto;
@@ -213,7 +213,7 @@ body {
 
 /* Specifications */
 
-.third {
+.third-layer {
     padding-left: auto;
     padding-top: 63px;
     padding-bottom: 63px;
@@ -251,11 +251,11 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    .first {
+    .first-layer {
         flex-direction: column;
     }
-    .cover13 img,
-    .cover14 img {
+    .cover13-layer img,
+    .cover14-layer img {
         margin-left: 5%;
         height: 60vh;
     }
@@ -282,12 +282,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .cover13 img,
-    .cover14 img {
+    .cover13-layer img,
+    .cover14-layer img {
         margin-left: 5%;
         height: 40vh;
     }
-    .third {
+    .third-layer {
         padding-left: 0%;
         padding-top: 63px;
         background-color: pink;
