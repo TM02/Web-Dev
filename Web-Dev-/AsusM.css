@@ -63,6 +63,9 @@ nav ul li a:visited {
 }
 
 
+/* Homepage */
+
+
 /* 2nd section */
 
 .zenbook15-img {
@@ -203,10 +206,10 @@ nav ul li a:visited {
 @media screen and (max-width: 600px) {
     .cover14 img,
     .cover13 img {
-        height: 43vh;
+        height: 42vh;
     }
     .cover15 img {
-        height: 38vh;
+        height: 37vh;
     }
 }
 
@@ -269,6 +272,9 @@ nav ul li a:visited {
         text-align: center;
     }
 }
+
+
+/* Product Page */
 
 
 /* product css start */
@@ -419,76 +425,490 @@ nav ul li a:visited {
         margin-left: 5%;
         flex-direction: column;
     }
+    .icon img {
+        padding: 7%;
+    }
 }
 
 
-/*Video css start */
+/* Video Page */
 
-.video {
-    background-color: wheat;
-    color: white;
-}
 
-#section1 {
-    background-image: url(img/bckg4.jfif)
-}
+/* video css start */
 
-#video {
-    background-color: whitesmoke;
-}
-
-#zenbook {
-    padding-top: 110px;
+.zenbook_title {
+    padding-top: 90px;
     padding-bottom: 60px;
     text-align: center;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(74, 74, 74);
-    color: whitesmoke;
 }
 
-.video_row {
+.video_content1,
+.video_content2,
+.video_content3 {
     height: auto;
     width: 100%;
     display: flex;
+    align-items: center;
+    margin: auto;
+    min-height: 45vh;
+    color: whitesmoke;
 }
 
-.video_col1 {
-    padding: 0px 20px 10px 150px;
-    float: left;
+.video_content1 {
+    background-color: rgb(52, 125, 99);
 }
 
-.video_col1 iframe {
+.video_content2 {
+    background-color: rgb(202, 129, 60);
+}
+
+.video_content3 {
+    background-color: rgb(174, 57, 135);
+}
+
+.video {
+    flex: 1;
+    padding: 7px 20px 0px 150px;
+}
+
+.video_desc {
+    flex: 1;
+    padding: 0px 150px 10px 10px;
+}
+
+.video iframe {
     border: 1px solid whitesmoke;
 }
 
-.video_col2 {
-    padding: 70px 150px 10px 100px;
-}
-
-.video_col2 h2 {
+.video_desc h2 {
     display: flex;
-    position: relative;
     text-align: left;
     padding: 5px 10px;
-    font-size: 25px;
-    font-family: Myriad W08 Regular, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
-    font-weight: 100;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
-.video_col2 p {
+.video_desc p {
     display: flex;
-    position: relative;
-    justify-content: space-around;
     text-align: left;
     padding: 20px 10px 5px;
-    font-size: 17px;
-    font-family: Myriad W08 Regular, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1200px) {
     .video {
+        padding: 17px 20px 0px 100px;
+    }
+    .video_desc {
+        padding: 0px 90px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .video_content1,
+    .video_content2,
+    .video_content3 {
         flex-direction: column;
+    }
+    .video {
+        padding: 17px 10px 0px 0px;
+    }
+    .video_desc {
+        width: 70%;
+        text-align: center;
+        padding: 7px 0px 20px 0px;
+    }
+    .video_desc p {
+        display: block;
+        text-align: center;
+    }
+    .video_desc h2 {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video {
+        padding: 17px 0px 0px 0px;
+    }
+    .video iframe {
+        width: 460px;
+    }
+}
+
+
+/* About Us Page */
+
+
+/*About us css start */
+
+.about_bckg {
+    position: relative;
+    z-index: 1;
+}
+
+.about_bckg::before {
+    /*for opacity of background*/
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(img/aboutbckg.jpg) center center;
+    opacity: 0.1;
+}
+
+#about {
+    position: relative;
+    padding-bottom: 36%;
+    height: 0;
+    padding-top: 50px;
+    vertical-align: bottom;
+}
+
+#about iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#about_asus1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#about_asus1 .about_title1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 10% 0% 0.5%;
+    border-bottom: 1px solid black;
+}
+
+.about_asus2 {
+    padding: 3% 0% 5%;
+}
+
+.about_asus2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(45, 43, 43);
+}
+
+.asus2_font {
+    font-size: 30px;
+    color: rgb(83, 75, 75);
+    font-weight: bold;
+}
+
+.about_asus2 h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(83, 75, 75);
+}
+
+
+/* Contact Us Page */
+
+
+/* Contact css start*/
+
+#contact_body {
+    background-image: url(img/contactbckg9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*cover the whole background*/
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    color: rgb(42, 39, 39);
+}
+
+#contact {
+    max-width: 680px;
+    margin-left: 70px;
+    margin-top: 80px;
+    text-align: left;
+}
+
+#contact .contact_title p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#contact .contact_content1 {
+    display: flex;
+    padding: 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contact .contact_content1 .contact_left1 {
+    flex: 1;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#contact .contact_content1 .contact_right1 {
+    flex: 1.5;
+    font-size: 20px;
+}
+
+#contact .support_video {
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contact .support_video h3 {
+    padding: 20px 0px 10px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+#contact .support_video p {
+    text-indent: 10%;
+    font-size: 36px;
+}
+
+.support_video p a {
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 0.2px;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#contact ul li {
+    flex: 1;
+}
+
+#contact ul li img {
+    transform: scale(0.6);
+    text-align: center;
+}
+
+.contact_right1 a,
+.support_video a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact_right1 a:link,
+.support_video a:link {
+    color: rgb(77, 130, 132);
+}
+
+.contact_right1 a:visited,
+.support_video a:visited {
+    color: darkslategray;
+}
+
+.contact_right1 a:hover,
+.support_video a:hover {
+    color: palevioletred;
+}
+
+
+/* Laptop Product Page */
+
+
+/* Zenbook */
+
+.first-layer {
+    background-color: pink;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    margin: 7%;
+    flex: 1.5;
+}
+
+.cover13-layer img {
+    margin-left: 15%;
+    height: 60vh;
+}
+
+.cover14-layer img {
+    margin-left: 15%;
+    height: 70vh;
+}
+
+.des-text-layer h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 8%;
+}
+
+.des-text-layer p {
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+/* Samples */
+
+.second-layer {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.samples {
+    height: auto;
+    text-align: center;
+    width: 100%;
+    object-fit: contain;
+}
+
+.samples img {
+    border: 2px solid pink;
+    vertical-align: bottom;
+    height: 32vh;
+}
+
+
+/* Specifications */
+
+.third-layer {
+    padding-left: auto;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    background-color: pink;
+    width: 100%;
+    margin: auto;
+    min-height: 60vh;
+    align-items: center;
+}
+
+.spec_title {
+    font-size: 40px;
+    padding-left: 130px;
+    padding-bottom: 40px;
+}
+
+.specs {
+    width: 60%;
+}
+
+.col1 {
+    border-right: 1px solid grey;
+    vertical-align: top;
+    padding: 30px;
+    padding-left: 8%;
+    font-size: 25px;
+    width: 400px;
+    height: 40px;
+}
+
+.col2 {
+    padding: 20px;
+    line-height: 1.5;
+    width: 600px;
+}
+
+@media screen and (max-width: 1024px) {
+    .first-layer {
+        flex-direction: column;
+    }
+    .cover13-layer img,
+    .cover14-layer img {
+        margin-left: 5%;
+        height: 60vh;
+    }
+    .des-text-layer h1 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 8%;
+    }
+    .description {
+        margin-top: 0px;
+        flex: 1.5;
+    }
+    .des-text-layer p {
+        text-align: center;
+        margin-top: 5px;
+        line-height: 1.5;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .specs {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cover13-layer img,
+    .cover14-layer img {
+        margin-left: 5%;
+        height: 40vh;
+    }
+    .third-layer {
+        padding-left: 0%;
+        padding-top: 63px;
+        background-color: pink;
+        width: 100%;
+        margin: auto;
+        min-height: 60vh;
+        align-items: center;
+    }
+    .spec_title {
+        font-size: 40px;
+        padding-left: 25%;
+        padding-bottom: 40px;
+    }
+    .specs {
+        padding-left: 4%;
+        width: 60%;
+    }
+    .col1 {
+        display: block;
+        border: none;
+        text-align: center;
+        padding: 30px;
+        padding-left: 25px;
+        font-size: 25px;
+        width: 400px;
+        height: 40px;
+    }
+    .col2 {
+        text-align: center;
+        display: block;
+        padding: 20px;
+        line-height: 1.5;
+        width: 400px;
     }
 }
