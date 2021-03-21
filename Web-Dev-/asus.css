@@ -118,7 +118,7 @@ nav ul li a:active {
     font-weight: 100;
 }
 
-#zenbook_product {
+.zenbook_product {
     padding: 0% 4% 10%;
     font-weight: 100;
     font-size: 20px;
