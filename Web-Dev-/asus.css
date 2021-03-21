@@ -127,7 +127,7 @@ nav ul li a:active {
     font-weight: 100;
 }
 
-#zenbook_product {
+.zenbook_product {
     padding: 0% 4% 10%;
     font-weight: 100;
     font-size: 20px;
@@ -347,13 +347,13 @@ nav ul li a:active {
 }
 
 .row1 figcaption {
-    padding-left: 25px;
+
     padding-bottom: 10px;
     font-size: 16px;
 }
 
 #classic {
-    padding-left: 18px;
+    padding-right: 13px;
 }
 
 .icon img {
@@ -374,6 +374,13 @@ nav ul li a:active {
     justify-content: center;
     padding: 13% 6% 0%;
     justify-content: space-around;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 13% 5% 10% 5%;
 }
 
 .column {
@@ -404,33 +411,27 @@ nav ul li a:active {
     font-family: sans-serif;
 }
 
-.list p .learn {
-    font-size: 0.7em;
+.learn {
+    font-size: 0.9em;
     font-family: sans-serif;
     text-decoration: none;
     padding: 20% 20%;
 }
 
-.row3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 13% 5% 10% 5%;
-}
 
-.list p a:link {
+.column a:link {
     color: rgb(174, 57, 135);
 }
 
-.list p a:visited {
+.column a:visited {
     color: rgb(174, 57, 135);
 }
 
-.list p a:hover {
+.column a:hover {
     color: rgb(112, 146, 247);
 }
 
-.list p a:active {
+.column a:active {
     color: rgb(202, 129, 60);
 }
 
