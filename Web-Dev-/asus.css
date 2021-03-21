@@ -119,6 +119,7 @@ nav ul li a:visited {
     font-weight: 100;
     font-size: 20px;
     align-items: center;
+    text-decoration: none;
 }
 
 
@@ -737,7 +738,9 @@ nav ul li a:visited {
 /* Zenbook */
 
 .first-layer {
-    background-color: pink;
+    background-image: url(img/zenbook14bckg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     width: 100%;
     margin: auto;
@@ -794,7 +797,7 @@ nav ul li a:visited {
 }
 
 .samples img {
-    border: 2px solid pink;
+    border: 2px solid rgba(242,224,222,255);
     vertical-align: bottom;
     height: 32vh;
 }
@@ -806,7 +809,7 @@ nav ul li a:visited {
     padding-left: auto;
     padding-top: 63px;
     padding-bottom: 63px;
-    background-color: pink;
+    background-color: rgba(242,224,222,255);
     width: 100%;
     margin: auto;
     min-height: 60vh;
@@ -879,7 +882,7 @@ nav ul li a:visited {
     .third-layer {
         padding-left: 0%;
         padding-top: 63px;
-        background-color: pink;
+        background-color: rgba(242,224,222,255);
         width: 100%;
         margin: auto;
         min-height: 60vh;
