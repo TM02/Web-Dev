@@ -877,6 +877,18 @@ nav ul li a:active {
     width: 600px;
 }
 
+.next-product {
+    padding-top: 15px;
+    padding-right: 5%;
+    float: right;
+}
+
+.previous-product {
+    padding-top: 15px;
+    padding-left: 5%;
+    float: left;
+}
+
 @media screen and (max-width: 1024px) {
     .first-layer {
         flex-direction: column;
@@ -906,6 +918,10 @@ nav ul li a:active {
     }
     .specs {
         width: 80%;
+    }
+    .next-product,
+    .previous-product {
+        font-size: 12px;
     }
 }
 
@@ -949,5 +965,9 @@ nav ul li a:active {
         padding: 20px;
         line-height: 1.5;
         width: 400px;
+    }
+    .next-product,
+    .previous-product {
+        font-size: 10px;
     }
 }
