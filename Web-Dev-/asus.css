@@ -68,6 +68,9 @@ nav ul li a:active {
     color: rgb(0, 0, 0);
 }
 
+
+/* changes when screen reaches 600px */
+
 @media screen and (max-width: 600px) {
     nav ul li a {
         font-size: 14px;
@@ -135,19 +138,23 @@ nav ul li a:active {
     text-decoration: none;
 }
 
-.des-text a:link {/*a normal, unvisited link*/
+.des-text a:link {
+    /*a normal, unvisited link*/
     color: rgba(47, 121, 174, 0.864);
 }
 
-.des-text a:visited {/*a link the user has visited*/
+.des-text a:visited {
+    /*a link the user has visited*/
     color: rgba(47, 121, 174, 0.864);
 }
 
-.des-text a:hover {/*a link when the user mouses over it*/
+.des-text a:hover {
+    /*a link when the user mouses over it*/
     color: rgba(73, 179, 160, 0.864);
 }
 
-.des-text a:active {/*a link the moment it is clicked*/
+.des-text a:active {
+    /*a link the moment it is clicked*/
     color: rgb(224, 144, 91);
 }
 
@@ -155,7 +162,8 @@ nav ul li a:active {
 /* Zenbook 13 Flip */
 
 .first {
-    display: flex;/*align two div block in same line*/
+    display: flex;
+    /*align two div block in same line*/
     width: 100%;
     margin: auto;
     min-height: 60vh;
@@ -171,7 +179,8 @@ nav ul li a:active {
 /* Zenbook 15 Duo Pro*/
 
 .second {
-    display: flex;/*align two div block in same line*/
+    display: flex;
+    /*align two div block in same line*/
     width: 100%;
     margin: auto;
     min-height: 60vh;
@@ -187,7 +196,8 @@ nav ul li a:active {
 /* Zenbook 14 */
 
 .third {
-    display: flex;/*align two div block in same line*/
+    display: flex;
+    /*align two div block in same line*/
     width: 100%;
     margin: auto;
     min-height: 60vh;
@@ -201,6 +211,9 @@ nav ul li a:active {
 
 
 /* Mininize Setting */
+
+
+/* changes when screen reaches 1100px */
 
 @media screen and (max-width: 1100px) {
     .first,
@@ -219,6 +232,9 @@ nav ul li a:active {
     }
 }
 
+
+/* changes when screen reaches 750px */
+
 @media screen and (max-width: 750px) {
     .zenbook15-img {
         height: 500px;
@@ -232,6 +248,9 @@ nav ul li a:active {
         height: 47vh;
     }
 }
+
+
+/* changes when screen reaches 600px */
 
 @media screen and (max-width: 600px) {
     .cover14 img,
@@ -277,7 +296,8 @@ nav ul li a:active {
 
 .footline3 a:link {
     color: rgba(123, 176, 214, 0.966);
-    text-decoration: none;/*remove line*/
+    text-decoration: none;
+    /*remove line*/
 }
 
 .footline3 a:hover {
@@ -293,6 +313,9 @@ nav ul li a:active {
     text-align: right;
     padding-left: 10%;
 }
+
+
+/* changes when screen reaches 1100px */
 
 @media screen and (max-width: 1100px) {
     .foot1,
@@ -357,7 +380,8 @@ nav ul li a:active {
     display: flex;
     text-align: center;
     align-items: center;
-    object-fit: contain;/*maintain the img aspect ratio while filling in entire content box*/
+    object-fit: contain;
+    /*maintain the img aspect ratio while filling in entire content box*/
     padding: 9%;
 }
 
@@ -365,16 +389,20 @@ nav ul li a:active {
 /* Product */
 
 .row2 {
-    display: flex;/*align two div block in same line*/
-    flex-direction: row;/*Items ordered the same way as text direction in a row*/
+    display: flex;
+    /*align two div block in same line*/
+    flex-direction: row;
+    /*Items ordered the same way as text direction in a row*/
     justify-content: center;
     padding: 13% 6% 0%;
-    justify-content: space-around;/*The div blocks will have space before, between and after */
+    justify-content: space-around;
+    /*The div blocks will have space before, between and after */
 }
 
 .row3 {
     display: flex;
-    justify-content: center;/*center the div block*/
+    justify-content: center;
+    /*center the div block*/
     padding: 13% 5% 10% 5%;
 }
 
@@ -387,7 +415,8 @@ nav ul li a:active {
 
 .column img {
     width: 50%;
-    object-fit: contain;/*maintain the img aspect ratio while filling in entire content box*/
+    object-fit: contain;
+    /*maintain the img aspect ratio while filling in entire content box*/
     padding-top: 6%;
 }
 
@@ -400,7 +429,8 @@ nav ul li a:active {
 .list li {
     text-align: left;
     padding: 0.5% 12%;
-    list-style-position: inside;/*bullet points inside the list items*/
+    list-style-position: inside;
+    /*bullet points inside the list items*/
     font-size: 1em;
     font-family: sans-serif;
 }
@@ -408,10 +438,10 @@ nav ul li a:active {
 .learn {
     font-size: 0.9em;
     font-family: sans-serif;
-    text-decoration: none;/*remove line*/
+    text-decoration: none;
+    /*remove line*/
     padding: 20% 20%;
 }
-
 
 .column a:link {
     color: rgb(174, 57, 135);
@@ -429,11 +459,17 @@ nav ul li a:active {
     color: rgb(202, 129, 60);
 }
 
+
+/* changes when screen reaches 1024px */
+
 @media screen and (max-width: 1024px) {
     .list1 li {
         font-size: 0.8em;
     }
 }
+
+
+/* changes when screen reaches 850px */
 
 @media screen and (max-width: 850px) {
     .row2,
@@ -453,6 +489,9 @@ nav ul li a:active {
         margin-bottom: 20px;
     }
 }
+
+
+/* changes when screen reaches 600px */
 
 @media screen and (max-width: 600px) {
     .row2,
@@ -536,6 +575,9 @@ nav ul li a:active {
     font-weight: 100;
 }
 
+
+/* changes when screen reaches 1200px */
+
 @media screen and (max-width: 1200px) {
     .video {
         padding: 17px 20px 0px 100px;
@@ -544,6 +586,9 @@ nav ul li a:active {
         padding: 0px 90px 10px 10px;
     }
 }
+
+
+/* changes when screen reaches 1000px */
 
 @media screen and (max-width: 1000px) {
     .video_content1,
@@ -568,6 +613,9 @@ nav ul li a:active {
         text-align: center;
     }
 }
+
+
+/* changes when screen reaches 600px */
 
 @media screen and (max-width: 600px) {
     .video {
@@ -599,22 +647,29 @@ nav ul li a:active {
     left: 0;
     right: 0;
     background: url(img/aboutbckg.jpg) center center;
-    opacity: 0.1;/* The image will become nearly transparent and text gets visible more clearly */
+    opacity: 0.1;
+    /* The image will become nearly transparent and text gets visible more clearly */
 }
 
 #about {
-    position: relative;/*position iframe in relation to the wrapping element*/
+    position: relative;
+    /*position iframe in relation to the wrapping element*/
     padding-bottom: 36%;
     height: 0;
     padding-top: 50px;
 }
 
 #about iframe {
-    position: absolute;/*give the iframe a position relative to the wrapper and let it be positioned over the padding of the wrapper*/
-    top: 0;/*position the iframe at the center of the container*/
-    left: 0;/*position the iframe at the center of the container*/
-    width: 100%;/*100% make the iframe take all of the wrapper’s space*/
-    height: 100%;/*100% make the iframe take all of the wrapper’s space*/
+    position: absolute;
+    /*give the iframe a position relative to the wrapper and let it be positioned over the padding of the wrapper*/
+    top: 0;
+    /*position the iframe at the center of the container*/
+    left: 0;
+    /*position the iframe at the center of the container*/
+    width: 100%;
+    /*100% make the iframe take all of the wrapper’s space*/
+    height: 100%;
+    /*100% make the iframe take all of the wrapper’s space*/
 }
 
 #about_asus1 {
@@ -728,27 +783,33 @@ nav ul li a:active {
 }
 
 #contact ul {
-    list-style: none;/*remove bullet points*/
-    display: flex;/*display image in same line*/
+    list-style: none;
+    /*remove bullet points*/
+    display: flex;
+    /*display image in same line*/
     padding-top: 50px;
     padding-bottom: 0.2px;
     align-items: center;
-    justify-content: space-around;/*form space before, between and after among the images*/
+    justify-content: space-around;
+    /*form space before, between and after among the images*/
     width: 30%;
 }
 
 #contact ul li {
-    flex: 1;/*form flex 1 1 1*/
+    flex: 1;
+    /*form flex 1 1 1*/
 }
 
 #contact ul li img {
-    transform: scale(0.6);/*resize the images to scaleX(0.6) and scaleY(0.6)*/
+    transform: scale(0.6);
+    /*resize the images to scaleX(0.6) and scaleY(0.6)*/
     text-align: center;
 }
 
 .contact_right a,
 .support_video a {
-    text-decoration: none;/*remove underline*/
+    text-decoration: none;
+    /*remove underline*/
     font-weight: 600;
 }
 
@@ -778,7 +839,8 @@ nav ul li a:active {
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
-    background-size: cover;/*cover the whole background*/
+    background-size: cover;
+    /*cover the whole background*/
     display: flex;
     width: 100%;
     margin: auto;
@@ -836,7 +898,8 @@ nav ul li a:active {
 
 .samples img {
     border: 2px solid rgba(242, 224, 222, 255);
-    vertical-align: bottom;/*The element is aligned with the lowest element on the line*/
+    vertical-align: bottom;
+    /*The element is aligned with the lowest element on the line*/
     height: 32vh;
 }
 
@@ -914,6 +977,9 @@ nav ul li a:active {
     color: rgb(178, 137, 238);
 }
 
+
+/* changes when screen reaches 1024px */
+
 @media screen and (max-width: 1024px) {
     .first-layer {
         flex-direction: column;
@@ -949,6 +1015,9 @@ nav ul li a:active {
         font-size: 10px;
     }
 }
+
+
+/* changes when screen reaches 600px */
 
 @media screen and (max-width: 600px) {
     .cover13-layer img,
