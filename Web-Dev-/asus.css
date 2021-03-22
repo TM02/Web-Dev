@@ -317,7 +317,7 @@ nav ul li a:active {
 /* product css start */
 
 .bckg {
-    background-image: url("img/bckg2.jfif");
+    background-image: url("img/bckg.jfif");
     background-repeat: repeat;
 }
 
@@ -662,7 +662,7 @@ nav ul li a:active {
 /* Contact css start*/
 
 #contact_body {
-    background-image: url(img/contactbckg9.jpg);
+    background-image: url(img/contactbckg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*cover the whole background*/
